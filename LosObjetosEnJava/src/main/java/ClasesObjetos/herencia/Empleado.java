@@ -11,6 +11,9 @@ public class Empleado extends Persona {
         super();
     }
 
+    public void actualizarSalario(int aumento){
+        this.salario = this.salario + aumento;
+    }
     public int getAntiguedad() {
         return antiguedad;
     }
@@ -24,7 +27,7 @@ public class Empleado extends Persona {
         return salario;
     }
 
-    public void actualizarSalario(double salario) {
+    public void setSalario(double salario) {
         this.salario = salario;
     }
 

@@ -12,7 +12,7 @@ public class Empresa {
         empleado1.setSegundoApellido("Cortes");
         empleado1.setAntiguedad(5);
         empleado1.setPuesto("Developer jr");
-        empleado1.actualizarSalario(12000);
+        empleado1.setSalario(12000);
 
         System.out.println(empleado1);
     }
