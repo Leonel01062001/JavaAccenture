@@ -3,7 +3,7 @@ package ClasesObjetos;
 import java.util.Scanner;
 
 public class AppPersona {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
         Persona individuo = new Persona();
 
@@ -21,5 +21,5 @@ public class AppPersona {
 
         System.out.println(individuo);
 
-    }
+    }*/
 }

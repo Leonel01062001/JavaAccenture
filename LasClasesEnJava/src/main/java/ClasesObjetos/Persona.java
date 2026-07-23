@@ -2,14 +2,14 @@ package ClasesObjetos;
 
 import java.util.Objects;
 
-public class Persona {
+public class Persona implements Comparable<Persona>{
     private  String nombre;
     private String primerApellido;
     private String segundoApellido;
     private String dni;
     private int edad;
 
-    public Persona(){
+    public Persona (){
 
     }
 
@@ -92,4 +92,12 @@ public class Persona {
     public int hashCode() {
         return Objects.hash(nombre, primerApellido, segundoApellido, dni, edad);
     }
+
+
+    @Override
+    public int compareTo(Persona o) {
+        return this.edad - o.edad;
+    }
+
+
 }
